@@ -4,7 +4,7 @@ import Topic from '../Topic/Topic';
 
 const Topics = () => {
     const quizTopics = useLoaderData()
-    console.log(quizTopics);
+    // console.log(quizTopics);
     return (
         <div>
             <h1>This is Quiz Side {quizTopics.data.length}</h1>

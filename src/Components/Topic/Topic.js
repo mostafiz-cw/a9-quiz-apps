@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Topic = ({ topic }) => {
-  console.log(topic);
+//   console.log(topic);
   const { name, logo,id } = topic;
   return (
     <div className="w-1/4 bg-slate-50">
