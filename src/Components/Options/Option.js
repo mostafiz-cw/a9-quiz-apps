@@ -5,7 +5,8 @@ const Option = ({ option }) => {
   return (
     <div>
       <ul>
-        <li>{option}</li>
+        <input type="radio" name="fav_language" id={option} />
+        <label for={option}>{option}</label>
       </ul>
     </div>
   );
