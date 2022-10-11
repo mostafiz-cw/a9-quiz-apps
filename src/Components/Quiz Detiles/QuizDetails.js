@@ -10,8 +10,8 @@ const QuizDetails = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <h1>Hello Quez</h1>
-            <h1>Quiz Of {data.name}</h1>
+            {/* <h1>Hello Quez</h1> */}
+            <h1 className="text-center text-4xl my-5">Quiz Of {data.name}</h1>
             {
                 data.questions.map( question => <QuizQuestions key={question.id} question={question}></QuizQuestions>)
             }
