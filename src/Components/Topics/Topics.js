@@ -6,7 +6,7 @@ const Topics = () => {
     const quizTopics = useLoaderData()
     // console.log(quizTopics);
     return (
-        <div>
+        <div className="h-screen">
             <h1>This is Quiz Side {quizTopics.data.length}</h1>
             <div className="flex container mx-auto gap-5">
             {

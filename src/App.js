@@ -35,7 +35,7 @@ function App() {
 
   return (
 
-    <div className="App bg-indigo-50 h-screen">
+    <div className="App bg-indigo-50">
       <RouterProvider router={router}></RouterProvider>
     </div>
   );
