@@ -12,7 +12,7 @@ function App() {
   const router = createBrowserRouter([
     {path: '/', element: <Main></Main>, children: [
       {
-        path: '/topics', 
+        path: '/quiz', 
         loader: async () =>{
           return fetch('https://openapi.programming-hero.com/api/quiz')
         },
@@ -20,14 +20,14 @@ function App() {
       },
       {path: '/statistics', element: <Statistics></Statistics>},
       {path: '/blog', element: <Blog></Blog>},
-      {path: '/', element: <Topics></Topics>}
+      // {path: '/', element: <Topics></Topics>}
     ]},
     {path: '*', element: <div>404 Not Found</div>}
   ])
 
   return (
 
-    <div className="App bg-indigo-50	 h-screen">
+    <div className="App bg-indigo-50 h-screen">
       <RouterProvider router={router}></RouterProvider>
     </div>
   );
