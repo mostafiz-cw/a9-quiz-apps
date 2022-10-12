@@ -26,8 +26,8 @@ const Statistics = () => {
     }, [])
     console.log(totalQuiz);
     return (
-        <div>
-            <BarChart className="mx-auto" width={500} height={440} data={totalQuiz}>
+        <div className="py-7">
+            <BarChart className="mx-auto" width={320} height={440} data={totalQuiz}>
           <Bar dataKey="Total" fill="#504AC6" />
           <XAxis dataKey="name"/>
           <Tooltip></Tooltip>

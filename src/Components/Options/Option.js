@@ -2,7 +2,7 @@ import React from "react";
 import Alert2 from "../Modal Alert/Alert2";
 
 const Option = ({ option,correctAnswer }) => {
-  console.log(option);
+  // console.log(option);
   return (
     <div>
       <ul onClick={Alert2} className="pb-6">

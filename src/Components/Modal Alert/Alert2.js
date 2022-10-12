@@ -4,10 +4,10 @@ import withReactContent from 'sweetalert2-react-content';
 
 const Alert2 = (correctAnswer,event) => {
     const answerInnerText = event.target.innerText;
-    console.log(correctAnswer,answerInnerText);
+    // console.log(correctAnswer,answerInnerText);
     const MySwal = withReactContent(Swal)
     if (correctAnswer === answerInnerText) {
-        console.log('correct');
+        // console.log('correct');
         MySwal.fire({
             title: <strong>Good Job</strong>,
             html: <i>Right Answer</i>,

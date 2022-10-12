@@ -4,7 +4,7 @@ import { EyeIcon } from '@heroicons/react/24/solid'
 import Alert from '../Modal Alert/Alert';
 
 const QuizQuestions = ({question}) => {
-    console.log(question.correctAnswer);
+    // console.log(question.correctAnswer);
     return (
         <div className="container bg-white mx-auto mb-6 pl-6">
             <h1 className="text-3xl py-10 text-center text-violet-800 font-semibold">{question.question}</h1>

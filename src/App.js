@@ -30,7 +30,7 @@ function App() {
       }
       // {path: '/', element: <Topics></Topics>}
     ]},
-    {path: '*', element: <img className="w-1/2 mx-auto my-auto" src="https://i.postimg.cc/CKjz9RqS/Mac-Book-1.png" alt="" />},
+    {path: '*', element: <img className="w-1/2 mx-auto mt-20" src="https://i.postimg.cc/CKjz9RqS/Mac-Book-1.png" alt="Not Found" />},
     {
       path: '/quiz/:id',
       loader: async ({params}) => {
