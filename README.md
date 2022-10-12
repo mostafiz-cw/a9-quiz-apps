@@ -1,3 +1,21 @@
+Project code link: https://github.com/programming-hero-web-course2/b6-quiz-crackerz-mostafiz-cw
+ProJect Name: Quiz Mania
+
+List of featured I have build
+*Navbar
+*Header
+*Quiz Card
+*Quiz answer multiple options
+*Quiz answer showed featured
+*Quiz answer showed with modal
+*Is quiz correct or wrong showed modal
+*Responsive design
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

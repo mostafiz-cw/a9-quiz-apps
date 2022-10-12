@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="h-16 bg-white flex justify-between">
      <div className="flex md:ml-24 ml-5">
         <div className="mt-4">
-            <p className="text-violet-900">Quiz Menia</p>
+            <p className="text-violet-900">Quiz Mania</p>
         </div>
      </div>    
       <div className="flex justify-end mr-24 ">
