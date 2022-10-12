@@ -5,9 +5,9 @@ const Topic = ({ topic }) => {
 //   console.log(topic);
   const { name, logo,id } = topic;
   return (
-    <div className="w-1/4 bg-slate-50">
-      <div className="w-11/12  bg-cyan-100 mx-auto my-3">
-        <img className="w-3/4 mx-auto" src={logo} alt="logo" />
+    <div className="md:w-1/4 bg-slate-50">
+      <div className="md:w-11/12  bg-cyan-100 mx-auto my-3">
+        <img className="md:w-3/4 mx-auto" src={logo} alt="logo" />
       </div>
       <div className="flex py-3 justify-between mx-3 items-center">
         <p>{name}</p>

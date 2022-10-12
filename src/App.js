@@ -21,9 +21,16 @@ function App() {
       },
       {path: '/statistics', element: <Statistics></Statistics>},
       {path: '/blog', element: <Blog></Blog>},
+      {
+        path: '/', 
+        loader: async () =>{
+          return fetch('https://openapi.programming-hero.com/api/quiz')
+        },
+        element: <Topics></Topics>
+      }
       // {path: '/', element: <Topics></Topics>}
     ]},
-    {path: '*', element: <div>404 Not Found</div>},
+    {path: '*', element: <img className="w-1/2 mx-auto my-auto" src="https://i.postimg.cc/CKjz9RqS/Mac-Book-1.png" alt="" />},
     {
       path: '/quiz/:id',
       loader: async ({params}) => {
