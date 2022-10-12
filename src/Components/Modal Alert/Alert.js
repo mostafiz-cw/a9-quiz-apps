@@ -18,4 +18,6 @@ const Alert = (correctAnswer) => {
     );
 };
 
+
+
 export default Alert;

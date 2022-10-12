@@ -11,7 +11,7 @@ const QuizQuestions = ({question}) => {
             <div className="flex justify-center">
                 <div>
                 {
-                    question.options.map(option => <Option option={option}></Option>)
+                    question.options.map(option => <Option option={option} correctAnswer={question.correctAnswer}></Option>)
                 }
                 </div>
             </div>
